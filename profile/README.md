@@ -1,55 +1,42 @@
 # pl&o
 
-### 🎓 2024 TUK 종합설계
+### 🎁 Toy Project
 
-### 📌 2024.01 ~ 2024.08
-
-<br>
+### 📌 2024.02 ~ 2024.04
 
 ## 🎤 Project Introduce
 
-최근 고령화 사회에 접어들면서 뇌질환 환자의 수가 빠르게 증가하고 있으며 발병 시기 역시 앞당겨지고 있다는 사실 알고 계신가요?
+Todo List의 기능과 Diary의 기능을 한번에 사용할 수 있는 서비스!
 
+※ 기술 발전과 공부용으로 진행한 Toy Project로 배포는 진행하지 않았습니다. ※
 
-그러나 이 치매를 어떻게 예방해야할지 몰라서 제대로 예방하지 못하는 사람들이 대다수입니다.
+**❓ BackEnd 목표**
 
-‘기억함’은 이러한 치매 예방을 위해서 **일기 회상과 그림 일기의 기능을 제공**합니다.
+1. 비즈니스 로직 모듈화 <br>
+: 기존에 작성했던 비즈니스 로직을 읽어봤을 때 너무 읽기 힘들었기 때문에, 비즈니스 로직의 모듈화를 진행하여 코드 가독성을 높이는 것을 목표로 잡았다. 
+2. 개발/테스트 환경 구축 <br>
+: 배포를 진행하지 않고 로컬 환경에서 테스트를 해야했기에 Docker를 도입하여 개발 환경과 테스트 환경을 구축하는 것을 목표로 잡았다. 
 
-<br>
+**❓ FrontEnd 목표**
 
-**❓ 일기회상이란**
-
-일기를 작성하면 그 작성된 일기의 내용을 바탕으로 주요 키워드를 찾아서 빈칸 문제를 만들어줍니다! 퀴즈와 함께 그날 어떤 일이 있었는지 회상해볼까요?
-
-<br>
-
-**❓ 그림일기란**
-
-찾은 주요 키워드를 직접 그릴 수 있어요! 그림에 자신이 없어도 괜찮아요~ 다른 사람들의 그림을 참고하거나 AI의 도움을 받을 수도 있으니 자유롭게 그려보세요!
+1. React 공부 <br>
+: 웹 프론트엔드의 가장 인기있는 기술인 React를 이론만 아는것이 아닌 실제 코드를 작성해보면서 경험해보는 것을 목표로 잡았다.
+2. 협업 경험 <br>
+: React에 대한 공부를 하면서 프로젝트를 진행해야했기에 혼자 공부하기보다는 서로 알려주며, 실제 협업까지 진행해보는 것을 목표로 잡았다.
 
 <br>
 
 ## 📜 System Architechture
 
 
-
-<br>
-
-<br>
-
 ## 📀 ERD
 
-
-
-<br>
-
-<br>
 
 ## 🛠️ Tech Stack
 
 |  | Stack |
 | --- | --- |
-| Frontend |<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=flat&logo=Tailwind CSS&logoColor=white"> <img src="https://img.shields.io/badge/Prettier-F7B93E?style=flat&logo=Prettier&logoColor=white"> <img src="https://img.shields.io/badge/npm-%23CB3837.svg?style=flat&logo=npm&logoColor=white">|
+| Frontend |<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=flat&logo=Tailwind CSS&logoColor=white"> <img src="https://img.shields.io/badge/Recoil-3578E5?style=flat&logo=Recoil&logoColor=white"> <img src="https://img.shields.io/badge/npm-%23CB3837.svg?style=flat&logo=npm&logoColor=white">|
 | Backend | <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat&logo=springboot&logoColor=black">|
 | DataBase | <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=black"> |
 | API | <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black"> |
