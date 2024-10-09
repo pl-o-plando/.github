@@ -30,6 +30,7 @@ Todo List의 기능과 Diary의 기능을 한번에 사용할 수 있는 서비�
 
 
 ## 📀 ERD
+<img src="https://github.com/user-attachments/assets/2cac9bb1-f5c9-468b-92e8-5fdd5909ff29" width="800">
 
 
 ## 🛠️ Tech Stack
